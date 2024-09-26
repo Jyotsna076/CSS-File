@@ -1,0 +1,65 @@
+  *{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    background-color: azure;
+}
+
+.Nav-bar{
+    background-color: #222f3d;
+    height: 6rem;
+    color: #fff;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30rem;
+}
+
+#name{
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#skill{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.per-dt{
+    background-color: #d3d3d3;
+    height: 90rem;
+    width: 30rem;
+    margin: 0 3rem 2rem 0;
+    padding-left: 3rem;
+    font-weight: bold;
+}
+
+ul,li,p{
+    margin-top: 0.5rem;
+}
+
+h2{
+    color: #63acac;
+    font-size: 1rem;
+    margin-top: 1.5rem; 
+}
+
+.content-two{
+    height: 90rem;
+    width: 100rem;
+    margin-right: 2rem;
+}
+ 
+
+

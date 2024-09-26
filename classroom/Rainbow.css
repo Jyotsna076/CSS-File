@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    background-color: #350909;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+.rain{
+    height: 30rem;
+    width: 50rem;
+    border: 0.2rem solid rgb(149, 23, 221);
+    margin-top: 2rem;
+    margin-left: 17rem;
+    border-radius: 1rem;
+    background: linear-gradient(60deg, #8b0000, #ff8c00, #e2c338, #24aa24,#1616b3, #3d0a61, #722472 );
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ball{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: deeppink;
+    text-align: center;
+    animation: rainbow 1.5s ease-in infinite alternate;
+    
+}
+
+@keyframes rainbow{
+    from {
+        transform: translateY(15rem);
+    }
+    to {
+       transform: translateY(-15rem);
+    }
+}
+.game{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color:  #000;
+    color: #fff;
+    text-align: center;
+    animation: game 3s ease-in infinite alternate;
+}
+@keyframes game{
+    from {
+        transform: translateY(15rem);
+    }
+    to {
+       transform: translateY(-15rem);
+    }
+}
+
+.circle{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    animation: circle 2s ease-in infinite alternate;
+}
+@keyframes circle{
+    from {
+        transform: translateY(15rem);
+    }
+    to {
+       transform: translateY(-15rem);
+    }
+}
